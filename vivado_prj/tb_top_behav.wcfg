@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="axi_bram_ctrl_funcs" />
+            <top_module name="glbl" />
+            <top_module name="tb_top" />
+            <top_module name="vcomponents" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="3,414.000001 us"></ZoomEndTime>
+      <Cursor1Time time="312.000000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="362"></NameColumnWidth>
+      <ValueColumnWidth column_width="263"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="32" />
+   <wvobject fp_name="/tb_top/test_accelerator/stage" type="array">
+      <obj_property name="ElementShortName">stage[31:0]</obj_property>
+      <obj_property name="ObjectShortName">stage[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/test_accelerator/configs" type="array">
+      <obj_property name="ElementShortName">configs[31:0]</obj_property>
+      <obj_property name="ObjectShortName">configs[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/test_accelerator/stage_start" type="logic">
+      <obj_property name="ElementShortName">stage_start</obj_property>
+      <obj_property name="ObjectShortName">stage_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/test_accelerator/stage_done" type="logic">
+      <obj_property name="ElementShortName">stage_done</obj_property>
+      <obj_property name="ObjectShortName">stage_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/softmax_out_count" type="array">
+      <obj_property name="ElementShortName">softmax_out_count[15:0]</obj_property>
+      <obj_property name="ObjectShortName">softmax_out_count[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/softmax_start" type="logic">
+      <obj_property name="ElementShortName">softmax_start</obj_property>
+      <obj_property name="ObjectShortName">softmax_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/layer_out_count" type="array">
+      <obj_property name="ElementShortName">layer_out_count[15:0]</obj_property>
+      <obj_property name="ObjectShortName">layer_out_count[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/layer_start" type="logic">
+      <obj_property name="ElementShortName">layer_start</obj_property>
+      <obj_property name="ObjectShortName">layer_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/rms_out_count" type="array">
+      <obj_property name="ElementShortName">rms_out_count[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rms_out_count[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/rms_start" type="logic">
+      <obj_property name="ElementShortName">rms_start</obj_property>
+      <obj_property name="ObjectShortName">rms_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/silu_out_count" type="array">
+      <obj_property name="ElementShortName">silu_out_count[15:0]</obj_property>
+      <obj_property name="ObjectShortName">silu_out_count[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/silu_start" type="logic">
+      <obj_property name="ElementShortName">silu_start</obj_property>
+      <obj_property name="ObjectShortName">silu_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/gelu_out_count" type="array">
+      <obj_property name="ElementShortName">gelu_out_count[15:0]</obj_property>
+      <obj_property name="ObjectShortName">gelu_out_count[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/gelu_start" type="logic">
+      <obj_property name="ElementShortName">gelu_start</obj_property>
+      <obj_property name="ObjectShortName">gelu_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/add_out_count" type="array">
+      <obj_property name="ElementShortName">add_out_count[15:0]</obj_property>
+      <obj_property name="ObjectShortName">add_out_count[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/add_start" type="logic">
+      <obj_property name="ElementShortName">add_start</obj_property>
+      <obj_property name="ObjectShortName">add_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/mul_out_count" type="array">
+      <obj_property name="ElementShortName">mul_out_count[15:0]</obj_property>
+      <obj_property name="ObjectShortName">mul_out_count[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/mul_start" type="logic">
+      <obj_property name="ElementShortName">mul_start</obj_property>
+      <obj_property name="ObjectShortName">mul_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/test_accelerator/\ACC_SNAKE_array[0].ACC_GLUT_SNAKE_array /block_00_south_out_tvalid" type="logic">
+      <obj_property name="ElementShortName">block_00_south_out_tvalid</obj_property>
+      <obj_property name="ObjectShortName">block_00_south_out_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/test_accelerator/\ACC_SNAKE_array[0].ACC_GLUT_SNAKE_array /block_00_south_out_tdata" type="array">
+      <obj_property name="ElementShortName">block_00_south_out_tdata[127:0]</obj_property>
+      <obj_property name="ObjectShortName">block_00_south_out_tdata[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/test_accelerator/\ACC_SNAKE_array[0].ACC_GLUT_SNAKE_array /block_10_west_out_tvalid" type="logic">
+      <obj_property name="ElementShortName">block_10_west_out_tvalid</obj_property>
+      <obj_property name="ObjectShortName">block_10_west_out_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/test_accelerator/\ACC_SNAKE_array[0].ACC_GLUT_SNAKE_array /block_10_west_out_tdata" type="array">
+      <obj_property name="ElementShortName">block_10_west_out_tdata[127:0]</obj_property>
+      <obj_property name="ObjectShortName">block_10_west_out_tdata[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/test_accelerator/\ACC_SNAKE_array[0].ACC_GLUT_SNAKE_array /block_11_north_out_tvalid" type="logic">
+      <obj_property name="ElementShortName">block_11_north_out_tvalid</obj_property>
+      <obj_property name="ObjectShortName">block_11_north_out_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/test_accelerator/\ACC_SNAKE_array[0].ACC_GLUT_SNAKE_array /block_11_north_out_tdata" type="array">
+      <obj_property name="ElementShortName">block_11_north_out_tdata[127:0]</obj_property>
+      <obj_property name="ObjectShortName">block_11_north_out_tdata[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/test_accelerator/\ACC_SNAKE_array[0].ACC_GLUT_SNAKE_array /block_01_west_out_tvalid" type="logic">
+      <obj_property name="ElementShortName">block_01_west_out_tvalid</obj_property>
+      <obj_property name="ObjectShortName">block_01_west_out_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/test_accelerator/\ACC_SNAKE_array[0].ACC_GLUT_SNAKE_array /block_01_west_out_tdata" type="array">
+      <obj_property name="ElementShortName">block_01_west_out_tdata[127:0]</obj_property>
+      <obj_property name="ObjectShortName">block_01_west_out_tdata[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/test_accelerator/\ACC_SNAKE_array[0].ACC_GLUT_SNAKE_array /block_02_west_out_tvalid" type="logic">
+      <obj_property name="ElementShortName">block_02_west_out_tvalid</obj_property>
+      <obj_property name="ObjectShortName">block_02_west_out_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/test_accelerator/\ACC_SNAKE_array[0].ACC_GLUT_SNAKE_array /block_02_west_out_tdata" type="array">
+      <obj_property name="ElementShortName">block_02_west_out_tdata[127:0]</obj_property>
+      <obj_property name="ObjectShortName">block_02_west_out_tdata[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/test_accelerator/\ACC_SNAKE_array[0].ACC_GLUT_SNAKE_array /block_03_west_out_tvalid" type="logic">
+      <obj_property name="ElementShortName">block_03_west_out_tvalid</obj_property>
+      <obj_property name="ObjectShortName">block_03_west_out_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/test_accelerator/\ACC_SNAKE_array[0].ACC_GLUT_SNAKE_array /block_03_west_out_tdata" type="array">
+      <obj_property name="ElementShortName">block_03_west_out_tdata[127:0]</obj_property>
+      <obj_property name="ObjectShortName">block_03_west_out_tdata[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/test_accelerator/\ACC_SNAKE_array[0].ACC_GLUT_SNAKE_array /rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/test_accelerator/\ACC_SNAKE_array[0].ACC_GLUT_SNAKE_array /stage_start" type="logic">
+      <obj_property name="ElementShortName">stage_start</obj_property>
+      <obj_property name="ObjectShortName">stage_start</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,30 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.33618",
+   "Default View_TopLeft":"-19,-43",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace inst zynq_ultra_ps_e_0 -pg 1 -lvl 3 -x 990 -y 140 -defaultsOSRD
+preplace inst ps8_0_axi_periph -pg 1 -lvl 4 -x 1470 -y 120 -defaultsOSRD
+preplace inst rst_ps8_0_299M -pg 1 -lvl 1 -x 180 -y 170 -defaultsOSRD
+preplace inst axi_smc -pg 1 -lvl 2 -x 530 -y 140 -defaultsOSRD
+preplace inst accelerator_control_0 -pg 1 -lvl 5 -x 1780 -y 360 -defaultsOSRD
+preplace netloc accelerator_control_0_interrupt 1 2 4 680 450 NJ 450 NJ 450 1920
+preplace netloc rst_ps8_0_299M_peripheral_aresetn 1 1 4 350 30 NJ 30 1320 380 NJ
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 0 5 10 70 360 40 670 50 1310 360 NJ
+preplace netloc zynq_ultra_ps_e_0_pl_resetn0 1 0 4 0 20 NJ 20 NJ 20 1290
+preplace netloc accelerator_control_0_m_axi_gmem0 1 1 5 370 240 NJ 240 NJ 240 NJ 240 1940
+preplace netloc accelerator_control_0_m_axi_gmem1 1 1 5 380 250 NJ 250 NJ 250 NJ 250 1930
+preplace netloc accelerator_control_0_m_axi_gmem2 1 1 5 390 260 NJ 260 NJ 260 NJ 260 1920
+preplace netloc axi_smc_M00_AXI 1 2 1 680 110n
+preplace netloc ps8_0_axi_periph_M00_AXI 1 4 1 1620 120n
+preplace netloc zynq_ultra_ps_e_0_M_AXI_HPM0_FPD 1 3 1 1300 60n
+levelinfo -pg 1 -20 180 530 990 1470 1780 1970
+pagesize -pg 1 -db -bbox -sgen -20 0 1970 460
+"
+}
+{
+   "da_axi4_cnt":"15",
+   "da_clkrst_cnt":"3"
+}
