@@ -4,7 +4,7 @@
 
 This work won the second prize in the Activation track of the FPT Design Competition and the first prize was awarded in the FPGA category of the National College Students' Embedded Chip and System Design Competition.
 
-**project brief : **This project integrates 7 common non-linear functions (Softmax, LayerNorm, RMSNorm, SiLu, GeLu, EADD, EMUL) from LLMs into a unified architecture (Gluttonous Snake), achieving acceleration of LLM non-linear function inference through a unified hardware architecture.
+**project brief:** This project integrates 7 common non-linear functions (Softmax, LayerNorm, RMSNorm, SiLu, GeLu, EADD, EMUL) from LLMs into a unified architecture (Gluttonous Snake), achieving acceleration of LLM non-linear function inference through a unified hardware architecture.
 
 **doc:** Store the papers and the PPTs for presentation and report.
 
