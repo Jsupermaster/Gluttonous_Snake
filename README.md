@@ -22,3 +22,8 @@ Before running the main calculation program, it is necessary to prepare the simu
 
 "python/ref_bin_bf16" folder contains the reference results. The Python program will use the contents of this folder as the reference for outputting the test results, and the test results will be stored in the folder "python/dif_result".
 
+# reference
+
+If our work has inspired you, please feel free to cite our paper:
+
+> Y. Jia, S. Zhang, X. Guo, K. Wang and C. Zheng, "Gluttonous Snake: A FPGA-Based Fully Unified Accelerator for Nonlinear Functions in LLMs," 2025 International Conference on Field Programmable Technology (ICFPT), Shanghai, China, 2025, pp. 286-287, doi: 10.1109/ICFPT67023.2025.00058. keywords: {Codes;Accuracy;Scalability;Large language models;Computer architecture;Vectors;System-on-chip;Hardware acceleration;Field programmable gate arrays;Arithmetic;hardware acceleration;nonlinear functions},
